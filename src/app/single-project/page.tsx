@@ -9,15 +9,9 @@ export default function SingleProject() {
   const [isMobile, setIsMobile] = useState(false);
 
   // Detect screen size
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 992); // Bootstrap lg breakpoint
-    };
-    handleResize(); // Run initially
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+useEffect(() => {
+    window.scrollTo(0, 0);
   }, []);
-
   return (
     <>
       {/* Favicon */}
