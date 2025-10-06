@@ -1,4 +1,3 @@
-
 import Script from "next/script";
 import Link from "next/link";
 import Navbar from "./Navbar";
@@ -13,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Dorbesh - Personal Portfolio",
+  title: "Jitendra - Personal Portfolio",
   description: "Jitendra - Creative Portfolio Showcase Template",
   keywords:
     "personal, portfolio, nextjs, bootstrap, design, creative, clean, modern",
@@ -50,12 +49,20 @@ export default function Home() {
                 <div className="about-social text-center">
                   <ul>
                     <li>
-                      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="ri-facebook-circle-fill" />
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="ri-twitter-x-line" />
                       </a>
                     </li>
@@ -69,7 +76,11 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                      <a
+                        href="https://github.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="ri-github-line" />
                       </a>
                     </li>

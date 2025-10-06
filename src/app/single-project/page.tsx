@@ -1,9 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Head from "next/head";
 import Link from "next/link";
-import Script from "next/script";
 
 export default function SingleProject() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,37 +19,12 @@ export default function SingleProject() {
 
   return (
     <>
-      <Head>
-        {/* META */}
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content="Dorbesh - Creative Portfolio Showcase Template"
-        />
-        <title>Dorbesh - Personal Portfolio</title>
-
-        {/* FAV ICON */}
-        <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
-
-        {/* GOOGLE FONTS */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-
-        {/* CSS FILES */}
-        <link rel="stylesheet" href="/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/fonts/remixicon.css" />
-        <link rel="stylesheet" href="/css/magnific-popup.css" />
-        <link rel="stylesheet" href="/css/nice-select.min.css" />
-        <link rel="stylesheet" href="/css/animate.min.css" />
-        <link rel="stylesheet" href="/css/slick.min.css" />
-        <link rel="stylesheet" href="/css/spacing.css" />
-        <link rel="stylesheet" href="/css/style.css" />
-        <link rel="stylesheet" href="/css/responsive.css" />
-      </Head>
+      {/* Favicon and Google Fonts */}
+      <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
 
       {/* START MENU DESIGN AREA */}
       <header className="main-header">
@@ -62,7 +35,7 @@ export default function SingleProject() {
               <div className="logo-outer">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo.png" alt="Logo" title="Logo" />
+                    <img src="/images/logo1.png" alt="Logo" title="Logo" />
                   </Link>
                 </div>
               </div>
@@ -73,7 +46,7 @@ export default function SingleProject() {
                   <div className="navbar-header">
                     <div className="mobile-logo">
                       <Link href="/">
-                        <img src="/images/logo.png" alt="Logo" title="Logo" />
+                        <img src="/images/logo1.png" alt="Logo" title="Logo" />
                       </Link>
                     </div>
                     {/* Toggle Button */}
@@ -98,34 +71,34 @@ export default function SingleProject() {
                   >
                     <ul className="navigation onepage clearfix">
                       <li>
-                        <a className="nav-link-click" href="/#about">
+                        <Link className="nav-link-click" href="/#about">
                           About
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="nav-link-click" href="/#service">
+                        <Link className="nav-link-click" href="/#service">
                           Services
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="nav-link-click" href="/#works">
+                        <Link className="nav-link-click" href="/#works">
                           Works
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="nav-link-click" href="/#pricing">
+                        <Link className="nav-link-click" href="/#pricing">
                           Pricing
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="nav-link-click" href="/#blog">
+                        <Link className="nav-link-click" href="/#blog">
                           Blog
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="nav-link-click" href="/#contact">
+                        <Link className="nav-link-click" href="/#contact">
                           Contact
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -134,9 +107,9 @@ export default function SingleProject() {
 
               {/* Button */}
               <div className="menu-btns">
-                <a href="/#contact" className="theme-btn">
+                <Link href="/#contact" className="theme-btn">
                   Hire Me <i className="ri-shake-hands-line" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -235,14 +208,14 @@ export default function SingleProject() {
                 Are You Ready to kickstart your project with a touch of magic?
               </h2>
               <p>
-                Reach out and let's make it happen ✨. I'm also available for
+                Reach out and let&apos;s make it happen ✨. I&apos;m also available for
                 full-time or part-time opportunities to push the boundaries of
                 design and deliver exceptional work.
               </p>
               <div className="hero-btns">
-                <a href="/contact" className="theme-btn">
-                  Let's Talk <i className="ri-download-line" />
-                </a>
+                <Link href="/contact" className="theme-btn">
+                  Let&apos;s Talk <i className="ri-download-line" />
+                </Link>
               </div>
             </div>
           </div>
@@ -254,7 +227,7 @@ export default function SingleProject() {
         <div className="footer-bottom pt-50 pb-40">
           <div className="container d-flex justify-content-between">
             <p>
-              ©2024 <Link href="/">Dorbesh</Link> All Rights Reserved.
+              ©2025 <Link href="/">Jitendra,</Link> All Rights Reserved.
             </p>
             <p>Crafted with ❤️ Themesvila</p>
           </div>
