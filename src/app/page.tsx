@@ -221,7 +221,7 @@ export default function Home() {
                     <div className="resume-item wow fadeInUp delay-0-3s">
                       <div className="icon">
                         <Image
-                          src="/images/WORK24.png"
+                          src="/images/work24.png"
                           alt="WORK24"
                           width={50}
                           height={50}
