@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function SingleProject() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,19 +13,15 @@ export default function SingleProject() {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 992); // Bootstrap lg breakpoint
     };
-    handleResize(); // run initially
+    handleResize(); // Run initially
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
     <>
-      {/* Favicon and Google Fonts */}
+      {/* Favicon */}
       <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-      />
 
       {/* START MENU DESIGN AREA */}
       <header className="main-header">
@@ -35,7 +32,13 @@ export default function SingleProject() {
               <div className="logo-outer">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo1.png" alt="Logo" title="Logo" />
+                    <Image
+                      src="/images/logo1.png"
+                      alt="Logo"
+                      title="Logo"
+                      width={160}
+                      height={40}
+                    />
                   </Link>
                 </div>
               </div>
@@ -46,7 +49,13 @@ export default function SingleProject() {
                   <div className="navbar-header">
                     <div className="mobile-logo">
                       <Link href="/">
-                        <img src="/images/logo1.png" alt="Logo" title="Logo" />
+                        <Image
+                          src="/images/logo1.png"
+                          alt="Logo"
+                          title="Logo"
+                          width={160}
+                          height={40}
+                        />
                       </Link>
                     </div>
                     {/* Toggle Button */}
@@ -128,7 +137,12 @@ export default function SingleProject() {
           </div>
         </div>
         <div className="single-project-image">
-          <img src="/images/projects/single-project.jpg" alt="image" />
+          <Image
+            src="/images/projects/single-project.jpg"
+            alt="image"
+            width={1200}
+            height={600}
+          />
         </div>
         <div className="container pt-30">
           <div className="row">
@@ -176,22 +190,42 @@ export default function SingleProject() {
           <div className="row pt-30">
             <div className="col-lg-6">
               <div className="single-image">
-                <img src="/images/projects/single-project1.jpg" alt="gallery" />
+                <Image
+                  src="/images/projects/single-project1.jpg"
+                  alt="gallery"
+                  width={600}
+                  height={400}
+                />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="single-image">
-                <img src="/images/projects/single-project2.jpg" alt="gallery" />
+                <Image
+                  src="/images/projects/single-project2.jpg"
+                  alt="gallery"
+                  width={600}
+                  height={400}
+                />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="single-image">
-                <img src="/images/projects/single-project3.jpg" alt="gallery" />
+                <Image
+                  src="/images/projects/single-project3.jpg"
+                  alt="gallery"
+                  width={600}
+                  height={400}
+                />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="single-image">
-                <img src="/images/projects/single-project4.jpg" alt="gallery" />
+                <Image
+                  src="/images/projects/single-project4.jpg"
+                  alt="gallery"
+                  width={600}
+                  height={400}
+                />
               </div>
             </div>
           </div>

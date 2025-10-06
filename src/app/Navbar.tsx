@@ -1,18 +1,20 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  // detect screen size
+  // Detect screen size
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 992); // lg breakpoint (<992px → mobile)
     };
 
-    handleResize(); // run on mount
+    handleResize(); // Run on mount
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -25,14 +27,15 @@ const Navbar = () => {
             {/* Logo */}
             <div className="logo-outer">
               <div className="logo">
-                <a href="/">
-                  <img
+                <Link href="/">
+                  <Image
                     src="/images/logo1.png"
                     alt="Logo"
                     title="Logo"
-                    style={{ height: "40px", width: "160px" }}
+                    width={160}
+                    height={40}
                   />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -41,9 +44,9 @@ const Navbar = () => {
               <nav className="main-menu navbar-expand-lg">
                 <div className="navbar-header">
                   <div className="mobile-logo">
-                    <a href="/">
+                    <Link href="/">
                       <h2 className="font-bold">Jitendra</h2>
-                    </a>
+                    </Link>
                   </div>
                   {/* Toggle Button (only show in mobile) */}
                   {isMobile && (
@@ -67,34 +70,34 @@ const Navbar = () => {
                 >
                   <ul className="navigation onepage clearfix">
                     <li>
-                      <a className="nav-link-click" href="#about">
+                      <Link className="nav-link-click" href="/#about">
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="nav-link-click" href="#service">
+                      <Link className="nav-link-click" href="/#service">
                         Services
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="nav-link-click" href="#works">
+                      <Link className="nav-link-click" href="/#works">
                         Works
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="nav-link-click" href="#pricing">
+                      <Link className="nav-link-click" href="/#pricing">
                         Pricing
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="nav-link-click" href="#blog">
+                      <Link className="nav-link-click" href="/#blog">
                         Blog
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="nav-link-click" href="#contact">
+                      <Link className="nav-link-click" href="/#contact">
                         Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -103,9 +106,9 @@ const Navbar = () => {
 
             {/* Button */}
             <div className="menu-btns">
-              <a href="#contact" className="theme-btn">
+              <Link href="/#contact" className="theme-btn">
                 Hire Me <i className="ri-shake-hands-line" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
