@@ -203,7 +203,12 @@ export default function Home() {
                   <div className="experience-list">
                     <div className="resume-item wow fadeInUp delay-0-3s">
                       <div className="icon">
-                        <Image src="/images/hana.jpg" alt="HANA" width={50} height={50} />
+                        <Image
+                          src="/images/hana.jpg"
+                          alt="HANA"
+                          width={50}
+                          height={50}
+                        />
                       </div>
                       <div className="content">
                         <span className="years">
@@ -215,7 +220,12 @@ export default function Home() {
                     </div>
                     <div className="resume-item wow fadeInUp delay-0-3s">
                       <div className="icon">
-                        <Image src="/images/WORK24.png" alt="WORK24" width={50} height={50} />
+                        <Image
+                          src="/images/WORK24.png"
+                          alt="WORK24"
+                          width={50}
+                          height={50}
+                        />
                       </div>
                       <div className="content">
                         <span className="years">
@@ -227,7 +237,12 @@ export default function Home() {
                     </div>
                     <div className="resume-item wow fadeInUp delay-0-3s">
                       <div className="icon">
-                        <Image src="/images/raidlayer.jpg" alt="Raidlayer" width={50} height={50} />
+                        <Image
+                          src="/images/raidlayer.jpg"
+                          alt="Raidlayer"
+                          width={50}
+                          height={50}
+                        />
                       </div>
                       <div className="content">
                         <span className="years">
@@ -239,7 +254,12 @@ export default function Home() {
                     </div>
                     <div className="resume-item wow fadeInUp delay-0-3s">
                       <div className="icon">
-                        <Image src="/images/cocotel.jpg" alt="COCOTEL" width={50} height={50} />
+                        <Image
+                          src="/images/cocotel.jpg"
+                          alt="COCOTEL"
+                          width={50}
+                          height={50}
+                        />
                       </div>
                       <div className="content">
                         <span className="years">
@@ -266,9 +286,7 @@ export default function Home() {
                           Bachelor of Commerce (B.Com.), <br />
                           Business Administration and Management, General
                         </h4>
-                        <span className="company">
-                          HA College of Commerce
-                        </span>
+                        <span className="company">HA College of Commerce</span>
                       </div>
                     </div>
                     <div className="resume-item wow fadeInUp delay-0-3s">
@@ -310,56 +328,96 @@ export default function Home() {
                 <div className="row">
                   <div className="col-lg-3 col-sm-6 col-xs-12">
                     <div className="skill-item wow fadeInUp delay-0-2s">
-                      <Image src="/images/skills/skill1.png" alt="Skill" width={50} height={50} />
+                      <Image
+                        src="/images/skills/skill1.png"
+                        alt="Skill"
+                        width={50}
+                        height={50}
+                      />
                       <h5>Figma</h5>
                       <span className="percent">99%</span>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6 col-xs-12">
                     <div className="skill-item wow fadeInUp delay-0-3s">
-                      <Image src="/images/skills/skill2.png" alt="Skill" width={50} height={50} />
+                      <Image
+                        src="/images/skills/skill2.png"
+                        alt="Skill"
+                        width={50}
+                        height={50}
+                      />
                       <h5>Tailwind</h5>
                       <span className="percent">93%</span>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6 col-xs-12">
                     <div className="skill-item wow fadeInUp delay-0-4s">
-                      <Image src="/images/skills/skill3.png" alt="Skill" width={50} height={50} />
+                      <Image
+                        src="/images/skills/skill3.png"
+                        alt="Skill"
+                        width={50}
+                        height={50}
+                      />
                       <h5>Photoshop</h5>
                       <span className="percent">53%</span>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6 col-xs-12">
                     <div className="skill-item wow fadeInUp delay-0-5s">
-                      <Image src="/images/skills/skill4.png" alt="Skill" width={50} height={50} />
+                      <Image
+                        src="/images/skills/skill4.png"
+                        alt="Skill"
+                        width={50}
+                        height={50}
+                      />
                       <h5>WordPress</h5>
                       <span className="percent">74%</span>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6 col-xs-12">
                     <div className="skill-item wow fadeInUp delay-0-2s">
-                      <Image src="/images/skills/skill5.png" alt="Skill" width={50} height={50} />
+                      <Image
+                        src="/images/skills/skill5.png"
+                        alt="Skill"
+                        width={50}
+                        height={50}
+                      />
                       <h5>Angular</h5>
                       <span className="percent">95%</span>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6 col-xs-12">
                     <div className="skill-item wow fadeInUp delay-0-3s">
-                      <Image src="/images/skills/skill6.png" alt="Skill" width={50} height={50} />
+                      <Image
+                        src="/images/skills/skill6.png"
+                        alt="Skill"
+                        width={50}
+                        height={50}
+                      />
                       <h5>Webflow</h5>
                       <span className="percent">96%</span>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6 col-xs-12">
                     <div className="skill-item wow fadeInUp delay-0-4s">
-                      <Image src="/images/skills/skill7.png" alt="Skill" width={50} height={50} />
+                      <Image
+                        src="/images/skills/skill7.png"
+                        alt="Skill"
+                        width={50}
+                        height={50}
+                      />
                       <h5>Python</h5>
                       <span className="percent">52%</span>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6 col-xs-12">
                     <div className="skill-item wow fadeInUp delay-0-5s">
-                      <Image src="/images/skills/skill8.png" alt="Skill" width={50} height={50} />
+                      <Image
+                        src="/images/skills/skill8.png"
+                        alt="Skill"
+                        width={50}
+                        height={50}
+                      />
                       <h5>Sketch</h5>
                       <span className="percent">84%</span>
                     </div>
@@ -474,13 +532,13 @@ export default function Home() {
                 <div className="project-item style-two wow fadeInUp delay-0-6s">
                   <div className="project-image">
                     <Image
-                      src="/images/projects/work4.jpg"
+                      src="/images/projects/work3.jpg"
                       alt="Project"
                       width={400}
                       height={300}
                     />
                     <a
-                      href="/images/projects/work4.jpg"
+                      href="/images/projects/work24.jpg"
                       className="details-btn work-popup"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -808,34 +866,84 @@ export default function Home() {
           </div>
           <div className="client-logo-wrap">
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-2s">
-              <Image src="/images/client-logos/partner1.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner1.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-3s">
-              <Image src="/images/client-logos/partner2.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner2.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-4s">
-              <Image src="/images/client-logos/partner3.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner3.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-5s">
-              <Image src="/images/client-logos/partner4.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner4.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-6s">
-              <Image src="/images/client-logos/partner1.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner1.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-2s">
-              <Image src="/images/client-logos/partner4.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner4.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-3s">
-              <Image src="/images/client-logos/partner4.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner4.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-4s">
-              <Image src="/images/client-logos/partner2.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner2.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-5s">
-              <Image src="/images/client-logos/partner3.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner3.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
             <Link href="#" className="client-logo-item wow fadeInUp delay-0-6s">
-              <Image src="/images/client-logos/partner1.png" alt="brand Logo" width={100} height={100} />
+              <Image
+                src="/images/client-logos/partner1.png"
+                alt="brand Logo"
+                width={100}
+                height={100}
+              />
             </Link>
           </div>
         </div>
@@ -857,7 +965,12 @@ export default function Home() {
             <div className="col-lg-6">
               <div className="blog-post-img">
                 <Link href="/single-project">
-                  <Image src="/images/blog/blog1.jpg" alt="" width={600} height={400} />
+                  <Image
+                    src="/images/blog/blog1.jpg"
+                    alt=""
+                    width={600}
+                    height={400}
+                  />
                 </Link>
                 <div className="blog-post-category">
                   <Link href="#">Help</Link>
@@ -872,7 +985,10 @@ export default function Home() {
                     Create a Landing Page That Performs Great
                   </Link>
                 </h2>
-                <Link className="theme-btn theme-btn-two" href="/single-project">
+                <Link
+                  className="theme-btn theme-btn-two"
+                  href="/single-project"
+                >
                   Read more <i className="ri-arrow-right-line" />
                 </Link>
               </div>
@@ -882,7 +998,12 @@ export default function Home() {
             <div className="col-lg-6">
               <div className="blog-post-img">
                 <Link href="/single-project">
-                  <Image src="/images/blog/blog2.jpg" alt="" width={600} height={400} />
+                  <Image
+                    src="/images/blog/blog2.jpg"
+                    alt=""
+                    width={600}
+                    height={400}
+                  />
                 </Link>
                 <div className="blog-post-category">
                   <Link href="#">Branding</Link>
@@ -897,7 +1018,10 @@ export default function Home() {
                     Starting and Growing a Career in Web Design
                   </Link>
                 </h2>
-                <Link className="theme-btn theme-btn-two" href="/single-project">
+                <Link
+                  className="theme-btn theme-btn-two"
+                  href="/single-project"
+                >
                   Read more <i className="ri-arrow-right-line" />
                 </Link>
               </div>
@@ -907,7 +1031,12 @@ export default function Home() {
             <div className="col-lg-6">
               <div className="blog-post-img">
                 <Link href="/single-project">
-                  <Image src="/images/blog/blog3.jpg" alt="" width={600} height={400} />
+                  <Image
+                    src="/images/blog/blog3.jpg"
+                    alt=""
+                    width={600}
+                    height={400}
+                  />
                 </Link>
                 <div className="blog-post-category">
                   <Link href="#">Design</Link>
@@ -922,7 +1051,10 @@ export default function Home() {
                     How Can Designers Prepare for the Future?
                   </Link>
                 </h2>
-                <Link className="theme-btn theme-btn-two" href="/single-project">
+                <Link
+                  className="theme-btn theme-btn-two"
+                  href="/single-project"
+                >
                   Read more <i className="ri-arrow-right-line" />
                 </Link>
               </div>
@@ -1072,9 +1204,9 @@ export default function Home() {
                   <span>project</span> with a touch of magic?
                 </h2>
                 <p>
-                  Reach out and let&apos;s make it happen ✨. I&apos;m also available for
-                  full-time or Part-time opportunities to push the boundaries of
-                  design and deliver exceptional work.
+                  Reach out and let&apos;s make it happen ✨. I&apos;m also
+                  available for full-time or Part-time opportunities to push the
+                  boundaries of design and deliver exceptional work.
                 </p>
                 <div className="hero-btns">
                   <Link href="#contact" className="theme-btn">

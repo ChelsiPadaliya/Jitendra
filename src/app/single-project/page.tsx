@@ -171,9 +171,9 @@ export default function SingleProject() {
                 <h2>Description</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  aliquam purus sit amet luctus venenatis, lectus magna fringilla
-                  urna, porttitor rhoncus dolor purus non enim praesent
-                  elementum facilisis leo.
+                  aliquam purus sit amet luctus venenatis, lectus magna
+                  fringilla urna, porttitor rhoncus dolor purus non enim
+                  praesent elementum facilisis leo.
                 </p>
                 <p>
                   Contrary to popular belief, Lorem Ipsum is not simply random
@@ -242,9 +242,9 @@ export default function SingleProject() {
                 Are You Ready to kickstart your project with a touch of magic?
               </h2>
               <p>
-                Reach out and let&apos;s make it happen ✨. I&apos;m also available for
-                full-time or part-time opportunities to push the boundaries of
-                design and deliver exceptional work.
+                Reach out and let&apos;s make it happen ✨. I&apos;m also
+                available for full-time or part-time opportunities to push the
+                boundaries of design and deliver exceptional work.
               </p>
               <div className="hero-btns">
                 <Link href="/contact" className="theme-btn">
