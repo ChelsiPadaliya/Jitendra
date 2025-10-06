@@ -1350,24 +1350,72 @@ color: transparent;
 
 .about-social {
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-social ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Flexible spacing between icons */
 }
 
 .about-social ul li {
-    display: inline-block;
-    margin: 0px 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-social ul li a {
-    font-size: 20px;
-    border: 1px solid #eee;
-    padding: 10px 12px;
-    border-radius: 10px;
+    font-size: 1.5rem; /* Default icon size (24px at 16px base) */
+    color: var(--main-color); /* Matches theme color #444 */
+    border: 1px solid #eee; /* Existing border */
+    padding: 0.625rem; /* 10px, matches existing padding */
+    border-radius: 10px; /* Existing border-radius */
+    transition: all 0.3s ease; /* Smooth transition for hover */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.about-social ul li a:hover {
+    color: #fff; /* White text on hover */
+    background: var(--primary-color); /* #448C74 */
+    border-color: var(--primary-color); /* Matches theme */
+}
+
+/* Tablets (≤768px) */
+@media (max-width: 768px) {
+    .about-social ul {
+        gap: 0.75rem; /* Reduced spacing */
+    }
+    .about-social ul li a {
+        font-size: 1.25rem; /* 20px */
+        padding: 0.5rem; /* 8px */
+    }
+}
+
+/* Mobile (≤576px) */
+@media (max-width: 576px) {
+    .about-social ul {
+        gap: 0.5rem; /* Further reduced spacing */
+    }
+    .about-social ul li a {
+        font-size: 1rem; /* 16px */
+        padding: 0.375rem; /* 6px */
+    }
+}
+
+/* Ensure touch-friendly size */
+@media (hover: none) {
+    .about-social ul li a {
+        min-width: 44px; /* Minimum touch target size */
+        min-height: 44px;
+    }
+}
 .about-image-part .dot-shape {
     position: absolute;
     left: -10%;
